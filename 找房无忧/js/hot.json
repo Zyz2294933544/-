@@ -1,0 +1,141 @@
+{
+    "Hot": [
+        {
+            "img":"../image/index/img1.jpg ",
+            "introduce": "文化部中间层 一层带阁楼",
+            "house-type": "2室1厅96㎡南北",
+            "total-prices": "1105万",
+            "price": "14268元/平",
+            "name": "红庙北里",
+            "characteristic_1": "学区房",
+            "characteristic_2": "独家",
+            "recommend":"同户型、通风好、采光好"
+        },
+        {
+            "img":"../image/index/img2.png ",
+            "introduce": "光大水墨  精装复式",
+            "house-type": "2室1厅96㎡南北",
+            "total-prices": " 280万",
+            "price": "14268元/平",
+            "name": "光大水墨",
+            "characteristic_1": "学区房",
+            "characteristic_2": "独家",
+            "characteristic_3": "采光好",
+            "recommend":"同户型、通风好、采光好"
+        },
+        {
+            "img":"../image/index/img3.png ",
+            "introduce": "南北通透两居 精装修",
+            "house-type": "2室1厅96㎡南北",
+            "total-prices": "320万",
+            "price": "14268元/平",
+            "name": "北京新天地",
+            "characteristic_1": "地铁房",
+            "characteristic_2": "独家",
+            "recommend":"同户型、通风好、采光好"
+        }
+    ],
+     "Tenement":[
+        {
+            "img":"./image/my/img1.png",
+            "introduce": "南沙滩小区 超低价急售",
+            "house-type": "2室1厅96㎡南北",
+            "rent": "3700元/月",
+            "name": "青岛新天地",
+            "characteristic_1": "集中供暖"
+        },
+        {
+            "img":"./image/my/img2.png",
+            "introduce": "青年汇二期 免税三居",
+            "housetype": "3室2厅129㎡南北",
+            "rent": "4610元/月",
+            "name": "青年汇家园",
+            "characteristic_1": "集中供暖"
+        },
+        {
+            "img":"./image/my/img3.png",
+            "introduce": "博雅德源稀缺两居 钥匙房源",
+            "housetype": "2室2厅126㎡南北",
+            "rent": "3420元/月",
+            "name": "西二旗",
+            "characteristic_1": "天然气供暖"
+        },
+        
+        {
+            "img":"./image/my/img4.png",
+            "introduce": "朝阳北路赠车库自住首选",
+            "housetype": "5室3厅260㎡南北",
+            "rent": "6000元/月",
+            "name": "武夷花园二手房",
+            "characteristic_1": "集中供暖"
+        },
+        {
+            "img":"./image/SecondHandList/img7.png",
+            "introduce": "金汉旭城 东南金角一居",
+            "housetype": "1室1厅60㎡南北",
+            "rent": "3300元/月",
+            "name": "鲁谷二手房",
+            "characteristic_1": "集中供暖"
+        }
+    ],
+    "SecondHandList":[
+        {
+            "img":"./image/SecondHandList/img1.png",
+            "introduce": "西便门外大街2室1厅89平",
+            "name": "南北 高楼层/6层",
+            "price": "13244元/平",
+            "totalprices": "1105万",
+            "date":"2015年11月10日"
+        },
+        {
+            "img":"./image/SecondHandList/img2.png",
+            "introduce": "金桥国际 1室1厅63平",
+            "name": "南北 高楼层/5层",
+            "price": "10004元/平",
+            "totalprices": "805万",
+            "date":"2015年11月10日"
+        },
+        {
+            "img":"./image/SecondHandList/img3.png",
+            "introduce": "花涧溪二期 2室2厅90平",
+            "name": "南北 高楼层/8层",
+            "price": "13044元/平",
+            "totalprices": "1100万",
+            "date":"2015年11月10日"
+        }
+    ],
+    "my":[
+        {
+            "img":"./image/my/img1.png",
+            "introduce": "辉煌国际",
+            "housetype": "昌平区-回龙观",
+            "activate":"2007年建成",
+            "price": "37050元/平",
+            "construction":"板塔结构"
+        },
+        {
+            "img":"./image/my/img2.png",
+            "introduce": "万寿园",
+            "housetype": "昌平区-回龙观",
+            "activate":"2007年建成",
+            "price": "56447元/平",
+            "construction":"板塔结构"
+        },
+        {
+            "img":"./image/my/img3.png",
+            "introduce": "红莲南里5号",
+            "housetype": "昌平区-回龙观",
+            "activate":"2007年建成",
+            "price": "89778元/平",
+            "construction":"板塔结构"
+        },
+        {
+            "img":"./image/my/img4.png",
+            "introduce": "万寿西街16号",
+            "housetype": "昌平区-回龙观",
+            "activate":"2007年建成",
+            "price": "90778元/平",
+            "construction":"板塔结构"
+        }
+    ]
+}

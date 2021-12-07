@@ -1,0 +1,87 @@
+html {
+    font-size: 62.5%;
+}
+.search {
+    width: 34rem;
+    height: 5rem;
+    margin: 1rem auto;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search>input {
+    width: 29rem;
+    height: 3rem;
+    border: 0;
+}
+.search>span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../image/SecondHandList/search_03.png) no-repeat;
+    background-size: contain;
+}
+
+nav {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul>li {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(128, 126, 126);
+}
+
+.hotHouse {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+}
+.hotHouse>ul {
+    margin: 0 2rem;
+}
+.hotHouse>ul>li:first-of-type {
+    border: 0;
+}
+.hotHouse>ul>li {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ff8a00;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.img>img {
+    width: 9rem;
+    height: 9rem;
+}
+.hotHouse>ul>li>.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hotHouse>ul>li>.text>h3 {
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.text>p {
+    font-size: 1.4rem;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.text>p>strong {
+    color: #ff8a00;
+    /* float: right; */
+}
+.hotHouse>ul>li>.text>p:nth-of-type(2)
+,.hotHouse>ul>li>.text>p:nth-of-type(3) {
+    color: rgb(139,139,139);
+}

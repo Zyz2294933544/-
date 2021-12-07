@@ -1,0 +1,110 @@
+html {
+    font-size: 62.5%;
+}
+.top {
+    width: 34rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0 auto;
+}
+.sea {
+    width: 100%;
+    height: 6rem;
+    border-top: 1px solid #ccc;
+}
+.search {
+    width: 34rem;
+    height: 4rem;
+    margin: .8rem auto;
+    border: .1rem solid #ccc;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.search>input {
+    width: 29rem;
+    height: 2rem;
+    border: 0;
+}
+.search>span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: url(../image/SecondHandList/search_03.png) no-repeat;
+    background-size: contain;
+}
+
+nav {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul>li {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(128, 126, 126);
+}
+nav>ul>li>div {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: .5rem;
+    border-style: solid;
+    border-color: #ccc transparent transparent transparent;
+}
+
+.hotHouse {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+}
+.hotHouse>ul {
+    margin: 0 2rem;
+}
+.hotHouse>ul>li:first-of-type {
+    border: 0;
+}
+.hotHouse>ul>li {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ff8a00;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.img>img {
+    width: 9rem;
+    height: 9rem;
+}
+.hotHouse>ul>li>.text {
+    height: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hotHouse>ul>li>.text>h3 {
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.text>p {
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.hotHouse>ul>li>.text>p>span {
+    display: inline-block;
+    padding: .2rem;
+    color: rgb(109,167,25);
+    border: .1rem solid rgb(109,167,25);
+}
+.hotHouse>ul>li>.text>p>strong {
+    color: #ff8a00;
+    float: right;
+}
+
