@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/第11页.css">
+    
+</head>
+
+<body>
+<!-- 网页头部 -->
+<header>
+    <a href="#" class="logo"><img src="../image/index/logo.jpg" alt=""></a>
+    <div>
+        <a href="../html/第8页.html" class="my"><img src="../image/index/my.jpg" alt=""></a>
+        &nbsp;&nbsp;&nbsp;
+        <a href="#" class="my"><img src="../image/index/xiazai.jpg" alt=""></a>
+    </div>
+</header>
+<!-- 身体 -->
+<div class="box1"><a href="#">首页</a>>我的>登录</div>
+<ul class="ul1">
+    <li>普通登录</li>
+    <li><a href="../html/第12页.html">验证码登录</a></li>
+</ul>
+<ul class="ul2">
+  <li><input type="text" placeholder="请输入手机号码" id="phone"></li>
+  <li><input type="password" placeholder="请输入密码" id="pass"></li>
+</ul>
+<button class="but">立即登录</button>
+<a href="../html/第7页.html"><span class="reg">立即注册</span></a><a href="./第13页.html"><span class="pass"> 忘记密码</span></a>
+</body>
+
+</html>
+<script src="../js/第11页.js"></script>
+<script>
+
+    function setRem() {
+        var ui_w = 375;
+        // 获取屏幕的宽度
+        var clientWidth = document.documentElement.clientWidth || document.body.clientWidth;
+
+
+        // 通过js动态改变html根节点字体大小
+        var html_ = document.getElementsByTagName('html')[0];
+        html_.style.fontSize = (clientWidth / ui_w) * 10 + 'px';
+    }
+    // window.onresize 浏览器被重置大小执行事件
+    window.onresize = setRem;
+
+
+</script>

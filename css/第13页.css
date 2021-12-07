@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 10px;
+}
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: #ff8a00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo>img {
+    width: 11rem;
+    height: 4rem;
+}
+header>div>.my>img {
+    width: 3rem;
+    height: 3.5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.ul1{
+    width: 100%;
+    height: 30rem;
+    display: flex;   
+    flex-direction: column;
+}
+.ul1 li{
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+.ul1 li:nth-of-type(1){
+    flex: 1;
+    line-height: 6rem;
+    text-indent: 2rem;
+    font-size: 1.6rem;
+}
+.ul1 li:nth-of-type(2){
+    flex: 1;
+}
+.ul1 li:nth-of-type(3){
+    flex: 1;
+}
+.ul1 li:nth-of-type(4){
+    flex: 1;
+}
+.ul1 li:nth-of-type(5){
+    flex: 1;
+}
+#phone{
+    width: 60%;
+    height: 6rem;
+    border: none;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    outline: none;
+}
+.code{
+    width: 30%;
+    height: 4rem;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #ccc  ;
+    top: 0rem;
+    right: -1rem;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 1.5rem;
+}
+#code1{
+    width: 60%;
+    height: 6rem;
+    border: none;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+    outline: none;
+}
+#pass{
+    width: 60%;
+    height: 6rem;
+    border: none;
+    font-size: 1.6rem;  
+    margin-left: 1rem;
+    outline: none;
+}
+#pass2{
+    width: 60%;
+    height: 6rem;
+    border: none;
+    font-size: 1.6rem;  
+    margin-left: 1rem;
+    outline: none;
+}
+.but{
+    width: 90%;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    background-color: rgb(255,138,0);
+    border: none;
+    font-size: 1.8rem;
+    color: white;
+}
